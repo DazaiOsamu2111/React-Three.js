@@ -7,7 +7,6 @@ import './index.css'
 ReactDOM.createRoot(document.getElementById('root')).render(
 	<React.StrictMode>
 		<div id='container'>
-			<div className='aim'></div>
 			<Canvas camera={{ fov: 45 }}>
 				<App />
 			</Canvas>
