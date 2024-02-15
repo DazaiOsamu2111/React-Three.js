@@ -6,8 +6,8 @@ import './index.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
 	<React.StrictMode>
+		<div id='buttonContainer'></div>
 		<div id='container'>
-			<div id='buttonContainer'></div>
 			<Canvas camera={{ fov: 45 }}>
 				<App />
 			</Canvas>
